@@ -28,8 +28,8 @@ const App = () => {
   const [expenses, setExpenses] = useState(dummyExpenses);
 
   const addExpenseHandler = (newExpense) => {
-    setExpenses((preExpenses)=>{
-      return [newExpense, ...preExpenses]
+    setExpenses((preExpenses) => {
+      return [newExpense, ...preExpenses];
     });
   };
 
